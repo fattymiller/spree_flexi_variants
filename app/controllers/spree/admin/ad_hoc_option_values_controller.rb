@@ -11,8 +11,8 @@ module Spree
     end
 
     def destroy
-      ad_hoc_option_value = AdHocOptionValue.find(params[:id])
-      ad_hoc_option_value.destroy
+      # ad_hoc_option_value = AdHocOptionValue.find(params[:id])
+      # ad_hoc_option_value.destroy
       render :text => nil
     end
   end
